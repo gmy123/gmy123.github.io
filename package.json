@@ -1,0 +1,38 @@
+{
+  "name": "fast-cahe",
+  "version": "0.0.1",
+  "description": "短小精悍的前端缓存工具 防止内存泄漏",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8880 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmy123/fast-cache.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "https://github.com/gmy123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmy123/fast-cache/issues"
+  },
+  "homepage": "https://github.com/gmy123/fast-cache#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.25.4",
+    "babel-loader": "^9.1.3",
+    "babel-preset-latest": "^6.24.1",
+    "bable-loader": "^0.0.1-security",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "user": "^0.0.0"
+  }
+}

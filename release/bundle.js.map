@@ -1,0 +1,1 @@
+{"version":3,"file":"./release/bundle.js","mappings":";;;;;;;AAAAA,KAAK,CAAC,EAAE,CAAC,C","sources":["webpack://fast-cahe/./src/index.js"],"sourcesContent":["alert(66)"],"names":["alert"],"sourceRoot":""}
